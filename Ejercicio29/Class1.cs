@@ -18,13 +18,20 @@ namespace clase_07
         }
         public Equipo(short cantidad, string nombre) : this()
         {
-            this.cantidadDeJugadores = cantidad;
+            CantidadJugadores = cantidad;
             this.nombre = nombre;
+        }
+
+
+        public short CantidadJugadores
+        {
+            get { return cantidadDeJugadores; }
+            set { this.cantidadDeJugadores = value; }
         }
 
         public static bool operator +(Equipo e, Jugador j)
         {
-            if(!jugadores.Contains(j) && jugadores.Count() < e.cantidadDeJugadores)
+            if(jugadores.Contains(j) == false && jugadores.Count() < e.cantidadDeJugadores)
             {
                 jugadores.Add(j);
                 return true;
@@ -65,16 +72,24 @@ namespace clase_07
             this.nombre = nombre;
             this.totalGoles = totalGoles;
             this.partidosJugados = totalPartidos;
+            this.PromedioGoles =(float) totalPartidos / totalGoles;
+        }
+
+
+        public float PromedioGoles
+        {
+            get { return promedioGoles; }
+            set { this.promedioGoles = value; }
         }
 
         public string MostrarDatos()
         {
-            return $"Nombre: {this.nombre}, DNI: {this.dni} || Partidos Jugados: {this.partidosJugados} || Promedio de Goles: {this.promedioGoles} || Goles totales: {this.totalGoles}. ";
+            return $"Nombre: {this.nombre}, DNI: {this.dni} || Partidos Jugados: {this.PromedioGoles} || Promedio de Goles: {this.promedioGoles} || Goles totales: {this.totalGoles}. ";
         }
 
         public static bool operator ==(Jugador jugador1,Jugador jugador2)
         {
-            return jugador1 == jugador2;
+            return jugador1.dni == jugador2.dni;
         }
 
         public static bool operator !=(Jugador jugador1,Jugador jugador2)
