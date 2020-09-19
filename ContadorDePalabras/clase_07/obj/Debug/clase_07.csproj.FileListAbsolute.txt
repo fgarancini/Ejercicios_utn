@@ -1,0 +1,7 @@
+C:\Users\FrancoGollo\source\repos\clase_07\clase_07\bin\Debug\clase_07.exe.config
+C:\Users\FrancoGollo\source\repos\clase_07\clase_07\bin\Debug\clase_07.exe
+C:\Users\FrancoGollo\source\repos\clase_07\clase_07\bin\Debug\clase_07.pdb
+C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\clase_07.csprojAssemblyReference.cache
+C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\clase_07.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\clase_07.exe
+C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\clase_07.pdb
