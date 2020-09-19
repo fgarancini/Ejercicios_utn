@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio29", "clase_07\Ejercicio29.csproj", "{ACB54464-08A3-4853-AF92-3F45AC959380}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsCount", "WordsCount\WordsCount.csproj", "{CFC85076-A26E-461C-B92C-FF52594E1B61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordsCount", "WordsCount.csproj", "{CFC85076-A26E-461C-B92C-FF52594E1B61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ACB54464-08A3-4853-AF92-3F45AC959380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ACB54464-08A3-4853-AF92-3F45AC959380}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ACB54464-08A3-4853-AF92-3F45AC959380}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ACB54464-08A3-4853-AF92-3F45AC959380}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CFC85076-A26E-461C-B92C-FF52594E1B61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CFC85076-A26E-461C-B92C-FF52594E1B61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFC85076-A26E-461C-B92C-FF52594E1B61}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {AA8ABF02-0146-44F4-9F18-94A18EB570E0}
+		SolutionGuid = {11EC8785-4883-4CD2-94B7-C08EB5FDA797}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,20 @@
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\bin\Debug\WordsCount.exe.config
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\bin\Debug\WordsCount.exe
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\bin\Debug\WordsCount.pdb
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\obj\Debug\WordsCount.csprojAssemblyReference.cache
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\obj\Debug\WordsCount.Form1.resources
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\obj\Debug\WordsCount.Properties.Resources.resources
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\obj\Debug\WordsCount.csproj.GenerateResource.cache
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\obj\Debug\WordsCount.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\obj\Debug\WordsCount.exe
+C:\Users\FrancoGollo\source\repos\clase_07\WordsCount\obj\Debug\WordsCount.pdb
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\bin\Debug\WordsCount.exe.config
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\bin\Debug\WordsCount.exe
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\bin\Debug\WordsCount.pdb
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\obj\Debug\WordsCount.csprojAssemblyReference.cache
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\obj\Debug\WordsCount.Form1.resources
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\obj\Debug\WordsCount.Properties.Resources.resources
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\obj\Debug\WordsCount.csproj.GenerateResource.cache
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\obj\Debug\WordsCount.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\obj\Debug\WordsCount.exe
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\ContadorDePalabras\Ejercicio 28\obj\Debug\WordsCount.pdb
