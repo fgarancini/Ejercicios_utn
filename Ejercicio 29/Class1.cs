@@ -60,16 +60,14 @@ namespace clase_07
             this.totalGoles = 0;
         }
 
-        public Jugador(int dni, string nombre)
+        public Jugador(int dni, string nombre) :this()
         {
             this.dni = dni;
             this.nombre = nombre;
         }
 
-        public Jugador(int dni, string nombre, int totalGoles, int totalPartidos)
+        public Jugador(int dni, string nombre, int totalGoles, int totalPartidos) :this(dni,nombre)
         {
-            this.dni = dni;
-            this.nombre = nombre;
             this.totalGoles = totalGoles;
             this.partidosJugados = totalPartidos;
             this.PromedioGoles =(float) totalPartidos / totalGoles;
