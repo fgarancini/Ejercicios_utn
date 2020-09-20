@@ -5,3 +5,10 @@ C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\Ejercicio29.csproj
 C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\Ejercicio29.csproj.CoreCompileInputs.cache
 C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\clase_07.exe
 C:\Users\FrancoGollo\source\repos\clase_07\clase_07\obj\Debug\clase_07.pdb
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio 29\bin\Debug\clase_07.exe.config
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio 29\bin\Debug\clase_07.exe
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio 29\bin\Debug\clase_07.pdb
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio 29\obj\Debug\Ejercicio29.csprojAssemblyReference.cache
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio 29\obj\Debug\Ejercicio29.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio 29\obj\Debug\clase_07.exe
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio 29\obj\Debug\clase_07.pdb
