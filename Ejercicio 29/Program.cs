@@ -24,7 +24,7 @@ namespace clase_07
 
             Console.WriteLine("----------------------------------------------------");
 
-            foreach (Jugador jugador in rica.jugadores)
+            foreach (Jugador jugador in rica.Jugadores)
             {
                 Console.WriteLine(jugador.MostrarDatos());
             }

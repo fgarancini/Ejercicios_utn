@@ -9,9 +9,9 @@ namespace clase_07
 
     public class Equipo
     {
-        public static short cantidadDeJugadores;
-        public List<Jugador> jugadores;
-        public string nombre;
+        private static short cantidadDeJugadores;
+        private List<Jugador> jugadores;
+        private string nombre;
 
         /// <summary>
         /// Constructor privado de la lista
@@ -25,6 +25,12 @@ namespace clase_07
             Equipo.cantidadDeJugadores = cantidad;
             this.nombre = nombre;
         }
+
+        public List<Jugador> Jugadores
+        {
+            get { return this.jugadores; }
+        }
+
         /// <summary>
         /// Agrega un jugador si la lista esta vacia, recorre la lista para 
         /// comprobar que el jugador no este en la lista, si no lo esta lo agrega
