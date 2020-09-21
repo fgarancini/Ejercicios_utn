@@ -6,40 +6,48 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_31
 {
-    class Negocio
+    public class Negocio
     {
         private PuestoAtencion caja;
         private Queue<Cliente> clientes;
         private string nombre;
-
+        /// <summary>
+        /// Inicializa la cola de clientes y El puesto de atencion como la caja 1
+        /// </summary>
         private Negocio()
         {
 
-            this.Cliente = new Queue<Cliente>();
-            caja = new PuestoAtencion(PuestoAtencion.Puesto.Caja1);
+            clientes = new Queue<Cliente>();
+            caja = new PuestoAtencion(0);
         }
         public Negocio(string nombre) :this()
         {
             this.nombre = nombre;
         }
-        public Queue<Cliente> Cliente
+        public Cliente Cliente
         {
             get 
             {
-                return this.clientes;
+                return this.clientes.Dequeue();
 
             }
             set 
             {
-                clientes = value;
+                if(!(this.clientes.Contains(value)))
+                {
+                    this.clientes.Enqueue(value);
+                }
             }
         }
 
         public static bool operator ==(Negocio negocio,Cliente cliente)
         {
-            if(negocio.clientes.Contains(cliente))
+            foreach (Cliente cliente1 in negocio.clientes)
             {
-                return true;
+                if(cliente1 == cliente)
+                {
+                    return true;
+                }
             }
             return false;
         }
@@ -50,36 +58,17 @@ namespace Ejercicio_31
         }
         public static bool operator +(Negocio negocio,Cliente cliente)
         {
-            if(negocio.Cliente.Count() == 0)
+            if(negocio!=cliente)
             {
-                negocio.Cliente.Enqueue(cliente);
-            }
-            else
-            {
-                if(negocio.Cliente.Contains(cliente))
-                {
-                    return false;
-                }
-                else
-                {
-                    negocio.Cliente.Enqueue(cliente);
-                    return true;    
-                }
+                negocio.clientes.Enqueue(cliente);
+                return true;
             }
             return false;
         }
 
         public static bool operator ~(Negocio negocio)
         {
-            foreach (Cliente item in negocio.Cliente)
-            {
-                if(negocio.caja.AtenderCliente(item))
-                {
-                    return true;
-                }
-
-            }
-            return false;
+            return negocio.caja.AtenderCliente(negocio.Cliente);
 
         }
     }

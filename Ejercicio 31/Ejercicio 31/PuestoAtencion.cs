@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ejercicio_31
 {
     
-    class PuestoAtencion
+    public class PuestoAtencion
     {
         public enum Puesto
         {
@@ -15,10 +15,11 @@ namespace Ejercicio_31
             Caja2
         }
         private static int numeroActual;
-        Puesto puesto;
+
+        private Puesto puesto;
         private PuestoAtencion()
         {
-            numeroActual = 0;
+            NumeroActual = 0;
         }
 
         public PuestoAtencion(Puesto puesto) :this()
@@ -29,10 +30,12 @@ namespace Ejercicio_31
         {
             get 
             {
-                numeroActual++;
                 return numeroActual; 
             }  
-
+            set
+            {
+                numeroActual++;
+            }
         }
 
         public bool AtenderCliente(Cliente cliente)

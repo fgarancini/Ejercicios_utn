@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_31
 {
-    class Cliente
+    public class Cliente
     {
         private string nombre;
         private int numero;
@@ -22,13 +22,13 @@ namespace Ejercicio_31
         }
         public int Numero
         {
-            get { return numero; }
+            get { return this.numero; }
         }
 
         public string Nombre
         {
-            get { return nombre; }
-            set { nombre = value; }
+            get { return this.nombre; }
+            set { this.nombre = value; }
         }
 
         public static bool operator ==(Cliente cliente1, Cliente cliente2)
