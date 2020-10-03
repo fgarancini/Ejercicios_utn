@@ -1,0 +1,7 @@
+C:\Users\FrancoGollo\source\repos\Ejercicio_38\Ejercicio_38\bin\Debug\Ejercicio_38.exe.config
+C:\Users\FrancoGollo\source\repos\Ejercicio_38\Ejercicio_38\bin\Debug\Ejercicio_38.exe
+C:\Users\FrancoGollo\source\repos\Ejercicio_38\Ejercicio_38\bin\Debug\Ejercicio_38.pdb
+C:\Users\FrancoGollo\source\repos\Ejercicio_38\Ejercicio_38\obj\Debug\Ejercicio_38.csprojAssemblyReference.cache
+C:\Users\FrancoGollo\source\repos\Ejercicio_38\Ejercicio_38\obj\Debug\Ejercicio_38.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\source\repos\Ejercicio_38\Ejercicio_38\obj\Debug\Ejercicio_38.exe
+C:\Users\FrancoGollo\source\repos\Ejercicio_38\Ejercicio_38\obj\Debug\Ejercicio_38.pdb
