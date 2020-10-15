@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CentralitaHerencia", "Centralita\CentralitaHerencia.csproj", "{3106CB00-DAA2-43F0-99B5-12255911F8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Central Telefenica", "Central Telefenica\Central Telefenica.csproj", "{AC503CDD-3678-4E8B-8521-B0943762BB60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3106CB00-DAA2-43F0-99B5-12255911F8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3106CB00-DAA2-43F0-99B5-12255911F8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3106CB00-DAA2-43F0-99B5-12255911F8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3106CB00-DAA2-43F0-99B5-12255911F8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC503CDD-3678-4E8B-8521-B0943762BB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC503CDD-3678-4E8B-8521-B0943762BB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC503CDD-3678-4E8B-8521-B0943762BB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC503CDD-3678-4E8B-8521-B0943762BB60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70FE09F2-DFC4-4DDE-8482-9B64FBBCE122}
+	EndGlobalSection
+EndGlobal
