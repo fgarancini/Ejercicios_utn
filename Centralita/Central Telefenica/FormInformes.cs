@@ -8,18 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CentralitaHerencia;
-
 namespace Central_Telefenica
 {
-    public partial class Form1 : Form
+    public partial class FormInformes : Form
     {
-        public Centralita centralita;
-        public Form1()
+        
+        public FormInformes(string mensaje)
         {
             InitializeComponent();
+            this.richTextBox1.Text = mensaje;
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

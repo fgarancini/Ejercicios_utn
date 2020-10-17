@@ -1,7 +1,7 @@
-C:\Users\FrancoGollo\source\repos\Centralita\Centralita\obj\Debug\CentralitaHerencia.csprojAssemblyReference.cache
-C:\Users\FrancoGollo\source\repos\Centralita\Centralita\obj\Debug\CentralitaHerencia.csproj.CoreCompileInputs.cache
 C:\Users\FrancoGollo\source\repos\Centralita\Centralita\bin\Debug\Centralita.exe.config
 C:\Users\FrancoGollo\source\repos\Centralita\Centralita\bin\Debug\Centralita.exe
 C:\Users\FrancoGollo\source\repos\Centralita\Centralita\bin\Debug\Centralita.pdb
+C:\Users\FrancoGollo\source\repos\Centralita\Centralita\obj\Debug\CentralitaHerencia.csprojAssemblyReference.cache
+C:\Users\FrancoGollo\source\repos\Centralita\Centralita\obj\Debug\CentralitaHerencia.csproj.CoreCompileInputs.cache
 C:\Users\FrancoGollo\source\repos\Centralita\Centralita\obj\Debug\Centralita.exe
 C:\Users\FrancoGollo\source\repos\Centralita\Centralita\obj\Debug\Centralita.pdb

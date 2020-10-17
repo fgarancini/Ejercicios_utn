@@ -96,7 +96,7 @@ namespace CentralitaHerencia
             this.ListaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
         }
 
-        protected string Mostrar()
+        private string Mostrar()
         {
             StringBuilder datos = new StringBuilder();
 
@@ -144,15 +144,13 @@ namespace CentralitaHerencia
                 }
                 else
                 {
-                    throw new CentralitaException("No se pudo agregar", "Clase", "Metodo");
+                    throw new CentralitaException("Ya se encuentra registrada esta llamada", $"{centralita.GetType()}", $"Metodo Agregar llamada");
                 }
             }
-            catch (CentralitaException ex)
+            catch(CentralitaException ex)
             {
-
-                Console.WriteLine(e.Message);
+                Console.WriteLine(ex.Message);
             }
-            
 
             return centralita;
         }

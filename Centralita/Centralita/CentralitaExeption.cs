@@ -32,7 +32,7 @@ namespace CentralitaHerencia
         }
         public CentralitaException(string mensaje, string clase, string metodo, Exception innerException) : base(mensaje, innerException)
         {
-
+            
         }
     }
 }

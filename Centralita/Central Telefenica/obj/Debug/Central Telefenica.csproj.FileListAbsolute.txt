@@ -1,0 +1,16 @@
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\bin\Debug\Central Telefenica.exe.config
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\bin\Debug\Central Telefenica.exe
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\bin\Debug\Central Telefenica.pdb
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\bin\Debug\Centralita.exe
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\bin\Debug\Centralita.pdb
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\bin\Debug\Centralita.exe.config
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central Telefenica.csprojAssemblyReference.cache
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central_Telefenica.FormInformes.resources
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central_Telefenica.FrmLlamador.resources
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central_Telefenica.FrmMenu.resources
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central_Telefenica.Properties.Resources.resources
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central Telefenica.csproj.GenerateResource.cache
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central Telefenica.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central Telefenica.csproj.CopyComplete
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central Telefenica.exe
+C:\Users\FrancoGollo\source\repos\Centralita\Central Telefenica\obj\Debug\Central Telefenica.pdb

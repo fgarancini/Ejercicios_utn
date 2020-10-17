@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace CentralitaHerencia
 {
-    class Provincial : Llamada
+    public enum Franja
     {
-        public enum Franja
-        {
-            Franja_1 = 99,
-            Franja_2 = 125,
-            Franja_3 = 66
-        }
+        Franja_1 = 99,
+        Franja_2 = 125,
+        Franja_3 = 66
+    }
+    public class Provincial : Llamada
+    {
 
         protected Franja franjaHoraria;
 
@@ -42,9 +42,8 @@ namespace CentralitaHerencia
         protected override string Mostrar()
         {
             StringBuilder datos = new StringBuilder();
-
-            datos.AppendLine($"Franja: {this.franjaHoraria}");
-            datos.AppendLine($"Duracion: {base.Duracion} || Numero de Origen: {base.NroOrigen} || Numero de Destino: {base.NroDestino}");
+            datos.AppendLine("Llamada Provincial");
+            datos.AppendLine($"{base.Mostrar()}");
             datos.AppendLine($"Costo total de la llamada {this.CostoLlamada}");
             datos.AppendLine($"Franja Horaria {this.franjaHoraria}");
             return datos.ToString();

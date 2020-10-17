@@ -68,7 +68,7 @@ namespace CentralitaHerencia
         {
             StringBuilder datos = new StringBuilder();
 
-            datos.AppendFormat($"Duracion: {this.Duracion}\nNumero de Destino: {this.NroDestino}\nNumero de Origen: {this.NroOrigen}");
+            datos.AppendFormat($"Duracion: {this.Duracion} min.\nNumero de Destino: {this.NroDestino}\nNumero de Origen: {this.NroOrigen}");
 
             return datos.ToString();
         }
