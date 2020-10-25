@@ -10,7 +10,7 @@ namespace Consola
     {
         static void Main(string[] args)
         {
-            Competencia c = new Competencia(10, 5);
+            Competencia c = new Competencia(10, 5,0);
             AutoF1 a1 = new AutoF1(1, "Ferrari");
             AutoF1 a2 = new AutoF1(2, "Mercedes");
             AutoF1 a3 = new AutoF1(3, "McLaren");

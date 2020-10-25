@@ -10,3 +10,9 @@ C:\Users\Maxi Lenzuen\source\repos\Ejercicio30X\Ejercicio30\Entidades\obj\Debug\
 C:\Users\Maxi Lenzuen\source\repos\Ejercicio30X\Ejercicio30\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Maxi Lenzuen\source\repos\Ejercicio30X\Ejercicio30\Entidades\obj\Debug\Entidades.dll
 C:\Users\Maxi Lenzuen\source\repos\Ejercicio30X\Ejercicio30\Entidades\obj\Debug\Entidades.pdb
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio30\Entidades\bin\Debug\Entidades.dll
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio30\Entidades\bin\Debug\Entidades.pdb
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio30\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio30\Entidades\obj\Debug\Entidades.dll
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio30\Entidades\obj\Debug\Entidades.pdb
+C:\Users\FrancoGollo\Desktop\Workplace\Ejercicios_utn\Ejercicio30\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

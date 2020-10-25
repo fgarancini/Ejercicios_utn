@@ -6,66 +6,39 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class AutoF1
+    public class AutoF1 : VehiculoDeCarrera
     {
-        private short cantidadCombustible;
-        private bool enCompetencia;
-        private string escuderia;
-        private short numero;
-        private short vueltasRestantes;
-        public AutoF1(short numero, string escuderia)
-        {
-            this.numero = numero;
-            this.escuderia = escuderia;
-            this.enCompetencia = false;
-            this.cantidadCombustible = 0;
-        }
-
-        public short CantidadDeCombustibles
+        private short caballosDeFuerza;
+        public short CaballosDeFuerza
         {
             get
             {
-                return this.cantidadCombustible;
+                return this.caballosDeFuerza;
             }
             set
             {
-                this.cantidadCombustible = value;
+                this.caballosDeFuerza = value;
             }
         }
-
-        public bool EnCompetencia
+        public AutoF1(short numero, string escuderia,short caballosDeFuerza) : base(numero, escuderia)
+        { 
+            this.CaballosDeFuerza = caballosDeFuerza;
+        }
+        public AutoF1(short numero,string escuderia) :this(numero,escuderia,0)
         {
-            get
-            {
-                return this.enCompetencia;
-            }
-            set
-            {
-                this.enCompetencia = value;
-            }
+
         }
-        public short VueltasRestantes
+        public override string MostrarDatos()
         {
-            get
-            {
-                return this.vueltasRestantes;
-            }
-            set
-            {
-                this.vueltasRestantes = value;
-            }
+            StringBuilder datosF1 = new StringBuilder();
+            datosF1.AppendLine("Formula 1");
+            datosF1.AppendLine($"{base.MostrarDatos()}");
+            datosF1.AppendLine($"Caballos de fuerza: {this.caballosDeFuerza}");
+            return datosF1.ToString();
         }
-
-
-
-        public string MostrarDatos()
-        {
-            return $"Numero: {this.numero}, Escuderia: {this.escuderia} || Cantidad de combustible: {this.cantidadCombustible} || Vueltas restantes: {this.vueltasRestantes}";
-        }
-        
         public static bool operator ==(AutoF1 auto1, AutoF1 auto2)
         {
-            return (auto1.numero == auto2.numero && auto1.escuderia == auto2.escuderia);
+            return (VehiculoDeCarrera)auto1 == (VehiculoDeCarrera)auto2 && auto1.caballosDeFuerza == auto2.caballosDeFuerza;
         }
         public static bool operator !=(AutoF1 auto1, AutoF1 auto2)
         {
