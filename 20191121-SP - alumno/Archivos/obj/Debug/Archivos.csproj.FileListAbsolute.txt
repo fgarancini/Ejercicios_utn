@@ -1,0 +1,5 @@
+C:\Users\FrancoGollo\Desktop\20191121-SP - alumno\Archivos\bin\Debug\Archivos.dll
+C:\Users\FrancoGollo\Desktop\20191121-SP - alumno\Archivos\bin\Debug\Archivos.pdb
+C:\Users\FrancoGollo\Desktop\20191121-SP - alumno\Archivos\obj\Debug\Archivos.csproj.CoreCompileInputs.cache
+C:\Users\FrancoGollo\Desktop\20191121-SP - alumno\Archivos\obj\Debug\Archivos.dll
+C:\Users\FrancoGollo\Desktop\20191121-SP - alumno\Archivos\obj\Debug\Archivos.pdb
